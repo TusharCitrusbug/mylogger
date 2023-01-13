@@ -1,0 +1,22 @@
+{
+  "name": "mylogger",
+  "version": "1.0.0",
+  "description": "Custom logger using event emmitor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TusharCitrusbug/mylogger.git"
+  },
+  "keywords": [
+    "logger"
+  ],
+  "author": "Tushar Citrusbug",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TusharCitrusbug/mylogger/issues"
+  },
+  "homepage": "https://github.com/TusharCitrusbug/mylogger#readme"
+}
