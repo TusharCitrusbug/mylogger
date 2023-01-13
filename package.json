@@ -1,5 +1,5 @@
 {
-  "name": "mylogger",
+  "name": "mylogger_custom",
   "version": "1.0.0",
   "description": "Custom logger using event emmitor",
   "main": "index.js",
