@@ -10,7 +10,7 @@ let currentDate = `${date.getUTCDate()}-${date.getMonth()}-${date.getUTCFullYear
 const filePath = loggerPath + `logger/${currentDate}_logger.txt`
 
 event.on('info', (message) => {
-    let information = "leavel:INFO" + "msg:" + message + "time:" + date
+    let information = "leavel:INFO " + "message:" + message + " time:" + date
     glob('logger' + '/**/*', (err, files) => {
         if (err) {
             throw Error("error occured while logging info", err)

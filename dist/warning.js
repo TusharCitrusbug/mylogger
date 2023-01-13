@@ -9,7 +9,7 @@ let currentDate = `${date.getUTCDate()}-${date.getMonth()}-${date.getUTCFullYear
 
 const filePath = loggerPath + `logger/${currentDate}_logger.txt`;
 event.on('warning', (message) => {
-    let information = "leavel:WARNING" + "msg:" + message + "time:" + date
+    let information = "leavel:WARNING " + "message:" + message + " time:" + date
     glob('logger' + '/**/*', (err, files) => {
         if (err) {
             throw Error("error occured while logging warning", err)
