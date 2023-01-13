@@ -1,6 +1,6 @@
 {
   "name": "mylogger_custom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom logger using event emmitor",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/TusharCitrusbug/mylogger/issues"
   },
-  "homepage": "https://github.com/TusharCitrusbug/mylogger#readme"
+  "homepage": "https://github.com/TusharCitrusbug/mylogger#readme",
+  "dependencies": {
+    "glob": "^8.0.3",
+    "linesert": "^1.0.0"
+  }
 }
